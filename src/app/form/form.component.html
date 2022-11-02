@@ -1,0 +1,65 @@
+<div class="form">
+    <!-- Formulario -->
+    <form id="formulario">
+        <div><h3>Datos personales</h3></div>
+        <div>
+            <input type="text" class="texto" id="carnet" placeholder="Carnet de identidad" maxlength="12">
+        </div>
+        <div>
+            <input type="text" class="texto" id="nombres" placeholder="Nombres" maxlength="50">
+        </div>
+        <div>
+            <input type="text" class="texto" id="apellidos" placeholder="Apellidos" maxlength="80">
+        </div><hr>
+        <div><h3>Productos</h3></div>
+        <div id="productosIndividuales" style="margin-bottom: 20px;">
+            <!--Lista de productos-->
+            <select name="select">
+                <option selected>Honda Wave 110 S - Precio: 12000 bs. (descuento 10%)</option>
+                <option>Honda Wave 111 S - Precio: 12500 bs. (descuento 15%)</option>
+                <option>Honda Wave 112 S - Precio: 13000 bs.</option>
+                <option>Honda Wave 113 S - Precio: 13500 bs.</option>
+                <option>Honda Wave 114 S - Precio: 14000 bs. (descuento 15%)</option>
+                <option>Honda Wave 115 S - Precio: 14500 bs. (descuento 10%)</option>
+            </select>
+        </div>
+        <hr>
+        <div><h4>Tus contactos</h4></div>
+        <div>
+            <input type="text" class="texto" id="celular" placeholder="Teléfono/Celular" maxlength="12" onKeypress="if (event.keyCode < 48 || event.keyCode > 57) event.returnValue = false;">
+        </div>
+        <div>
+            <input type="text" class="texto" id="correo" placeholder="Correo electrónico" maxlength="80">
+        </div>
+        <hr>
+        <div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary aceptar" data-toggle="modal" data-target="#exampleModal">Enviar</button>
+        </div>
+    </form>
+</div>
+<!-- Pie de página -->
+<footer class="pie-pagina">
+    <div class="grupo-1">
+        <div class="box">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d244806.82590595543!2d-68.12407749999998!3d-16.52071235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915edf0a04f5a40f%3A0x57dbfc76b4458ab3!2sLa%20Paz!5e0!3m2!1ses!2sbo!4v1660143040852!5m2!1ses!2sbo" width="400" height="130" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="box">
+            <h2>UCB | RIDER</h2>
+            <p>Otras sedes de UCB | RIDER</p>
+            <p>Tailadia - España - Canadá - EE.UU - Alemania</p>
+        </div>
+        <div class="box">
+            <h2>SIGUENOS</h2>
+            <div class="red-social">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+        </div>
+    </div>
+    <div class="grupo-2">
+        <small>&copy; 2022 <b>UCB | RIDER</b> - Todos los derechos reservados</small>
+    </div>
+</footer>
