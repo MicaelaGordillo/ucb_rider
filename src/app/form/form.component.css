@@ -13,7 +13,7 @@ h3, h4 {
 .form {
     padding: 20px 15%;
 }
-.texto {
+.texto, select {
     padding: 10px 10px 10px 10px;
     border: 2px solid #81888e;
     border-radius: 10px;
